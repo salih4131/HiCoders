@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="https://server.ch/profile">
+        <fieldset>
+            <legend>kisisel Bilgiler</legend>
+            <table>
+                <tbody>
+                    <tr>
+                        <td><input type="text" placeholder="Ad Soyad" value="Salih"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" placeholder="Dogum Yeri" value="zurich"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="date" placeholder="Dogum Tarihi" ></td>
+                    </tr>
+                    <tr>
+                        <td> <label>
+                                <input type="radio" name="cinsiyet" value="Erkek"> Erkek
+                            </label>
+                            <input type="radio" name="cinsiyet" value="Kadin"> Kadin</td>
+                    </tr>
+                    <tr>
+                        <td>Resim ekleyiniz</td>
+                        <td><input type="file" src="./img/profil.jpg"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </fieldset><br>
+        <fieldset>
+            <legend>iletsim Bilgileri</legend>
+            <table>
+                <tbody>
+                    <tr>
+                        <td><input type="email" placeholder="Email" value="Salih41@gmail.com"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="tel" placeholder="Telefon" value="03455674"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="adres" placeholder="Adres" value="dorf 53.8008 Zurich"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </fieldset><br>
+        <fieldset>
+            <legend>Egitim Durumunuz</legend>
+            <label>
+                <input type="radio" name="Okul" value="ilkokul">ilkokul <br>
+                <input type="radio" name="Okul" value="Ortokul">Ortokul <br>
+                <input type="radio" name="Okul" value="Lise">Lise <br>
+                <input type="radio" name="Okul" value="Universite">Universite <br>
+                <input type="radio" name="Okul" value="Master,Doktora">Master <br>
+            </label>
+            <br>Ana diliniz <br>
+            <select nane="dil">
+                <option>Ingilizce</option>
+                <option>Almanca</option>
+                <option>Fransizca</option>
+                <option>Ispanyolca</option>
+            </select>
+        </fieldset><br>
+        <fieldset>
+            <legend>Cocuklarinizin yas ve egitm durumlari</legend>
+            <table border="1">
+                <tbody>
+                    <tr>
+                        <th>ad</th>
+                        <th>Yas</th>
+                        <th>Okul</th>
+                        <th>Cinsiyet</th>
+                    </tr>
+                    <tr>
+                        <td>Ali</td>
+                        <td>7</td>
+                        <td>ilkokul</td>
+                        <td>Erkek</td>
+                    </tr>
+                    <tr>
+                        <td>Şevval</td>
+                        <td>5</td>
+                        <td>Anaokulu</td>
+                        <td>Kiz</td>
+                    </tr>
+                </tbody>
+            </table>
+        </fieldset><br>
+        <details>
+            <summary>Özgecmiş</summary>
+            <p>1990 zürich dogumluyum.2012 da ETH da kimya alanında egitimimi tamamladım.Şu anda bir ilac firmasında
+                Endüstriyel pazarlama bölümünde calışmaktayım. evli ve 2 cocuk babasıyım.</p>
+        </details>
+        <pre></pre>
+        <fieldset>
+            <legend>Hobilerim</legend>
+            <ul>
+                <li>Balık tutmak</li>
+                <li>Kıtap okumak</li>
+                <li>Bısıklet surmek</li>
+            </ul>
+        </fieldset><br>
+        <fieldset>
+            <legend>Becerilerim</legend>
+            <ol>
+                <li>Gıtar</li>
+                <li>Resım</li>
+                <li>planor</li>
+            </ol>
+        </fieldset>
+        <br>
+        Bu kurstan beklentileriniz ve hedefleriniz
+        <br>
+        <textarea name="" id="" cols="167"
+            rows="10">Kendimi geliştirmek ve yeni iş imkanlarından faydalanmak istiyorum.</textarea><br>
+        <br>
+        <input type="submit" formtarget="blank" value="Gonder"> <br>
+        <button type="reset">sifirla</button>
+    </form>
+</body>
+
+</html>
