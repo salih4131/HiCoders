@@ -22,7 +22,7 @@ feedback yaparsanız sevinirim.*/
 }
 
 .header {
-  background-color: rgb(213, 235, 235);
+  background-color: rgb(231, 238, 238);
   padding: 15px;
   margin-bottom: 1px;
   border-radius: 15px;
@@ -44,7 +44,7 @@ nav a {
 }
 
 .sidebar {
-  background-color: rgb(213, 235, 235);
+  background-color: rgb(231, 238, 238);
   padding: 30px;
   flex-basis: 30%;
   margin-bottom: 1px;
@@ -88,7 +88,7 @@ nav a {
 }
 
 .main {
-  background-color: rgb(213, 235, 235);
+  background-color: rgb(231, 238, 238);
   padding: 0 30px;
   flex: 1;
   margin-left: 1px;
@@ -142,7 +142,7 @@ h4 {
 }
 
 .cocuk {
-  background-color: rgb(213, 235, 235);
+  background-color: rgb(231, 238, 238);
   padding: 30px;
   flex-basis: 30%;
   margin-bottom: 1px;
@@ -174,7 +174,7 @@ h4 {
 }
 
 .skil {
-  background-color: rgb(213, 235, 235);
+  background-color: rgb(231, 238, 238);
   padding: 30px;
   flex: 1;
   margin-left: 1px;
@@ -213,7 +213,7 @@ h4 {
 }
 
 .hobi {
-  background-color: rgb(213, 235, 235);
+  background-color: rgb(231, 238, 238);
   padding: 30px;
   flex-basis: 30%;
   margin-bottom: 1px;
@@ -245,7 +245,7 @@ h4 {
 }
 
 .video {
-  background-color: rgb(213, 235, 235);
+  background-color: rgb(231, 238, 238);
   padding: 30px;
   flex: 1;
   margin-left: 1px;
@@ -271,7 +271,7 @@ h4 {
 }
 
 .footer {
-  background-color: rgb(213, 235, 235);
+  background-color: rgb(231, 238, 238);
   padding: 10px;
   margin-top: 2px;
   border-radius: 10px;
