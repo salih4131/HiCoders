@@ -1,40 +1,101 @@
 .container {
-    display: flex;
-    flex-direction:row;
-    width: 100%;
-    margin: 0px auto;
-    justify-content: center;
-    align-items: center;
-    background-color: blanchedalmond;
+  display: flex;
+  flex-direction: row;
+  width: 1000px;
+  height: 400px;
+  margin: 0px auto;
+  justify-content: space-around;
+  align-items: center;
+  background-color: blanchedalmond;
 }
-.daire{
-    height: 300px;
-    width: 300px;
-    display: flex;
-    flex-wrap: wrap;
-    background-color: #E3516E;
+.uclu {
+
+  height: 300px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: purple;
 }
 
-.parca-sol{
-    height: 150px;
-    width: 150px;
-    background-color: #51b5A9;
-    border-radius: 100% 0% 0% 0%;
+.parca-1 {
+  height: 0px;
+  width: 0px;
+  margin-bottom: -80px;
+  border: 40px solid#FADE8B;
+  border-bottom-left-radius: 180px;
+  border-bottom-right-radius: 180px;
 }
-.parca-sag{
-    height: 150px;
-    width: 150px;
-    background-color:#FADE8B;
-    border-radius: 0% 100% 0% 0%;
+.parca-2 {
+  height: 0px;
+  width: 0px;
+  margin-top: -80px;
+  border: 40px solid#FADE8B;
+  border-top-left-radius: 180px;
+  border-top-right-radius: 180px;
 }
-.parca-sol-alt{
-    height: 150px;
-    width: 150px;
-    background-color:#F7F3D7;
-    border-radius: 0% 0% 0% 1000%;
+.parca-3 {
+  height: 0px;
+  width: 0px;
+  margin-bottom: -80px;
+  border: 40px solid#FADE8B;
+  border-bottom-left-radius: 180px;
+  border-bottom-right-radius: 180px;
 }
-.parca-sag-alt{
-    height: 150px;
-    width: 150px;
-    border-radius: 0% 0% 100% 0%;
+
+.daire {
+  height: 300px;
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #e3516e;
+}
+
+.parca-sol {
+  height: 150px;
+  width: 150px;
+  background-color: #51b5a9;
+  border-radius: 100% 0% 0% 0%;
+}
+.parca-sag {
+  height: 150px;
+  width: 150px;
+  background-color: #fade8b;
+  border-radius: 0% 100% 0% 0%;
+}
+.parca-sol-alt {
+  height: 150px;
+  width: 150px;
+  background-color: #f7f3d7;
+  border-radius: 0% 0% 0% 1000%;
+}
+.parca-sag-alt {
+  height: 150px;
+  width: 150px;
+  border-radius: 0% 0% 100% 0%;
+}
+.circel {
+
+  height: 300px;
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #191210;
+  justify-content: center;
+  align-items: center;
+}
+
+.cember{
+    height: 70px;
+    width: 70px;
+    border: 14px solid #ECA03D;
+    border-radius: 50%;
+}
+.nokta{
+    height: 11px;
+    width: 11px;
+    border: 11px solid #84271c;
+    border-radius: 50%;
+   margin:20px ;
+   background-color: #84271c;
 }
