@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    flex-direction:row;
+    width: 100%;
+    margin: 0px auto;
+    justify-content: center;
+    align-items: center;
+    background-color: blanchedalmond;
+}
+.daire{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #E3516E;
+}
+
+.parca-sol{
+    height: 150px;
+    width: 150px;
+    background-color: #51b5A9;
+    border-radius: 100% 0% 0% 0%;
+}
+.parca-sag{
+    height: 150px;
+    width: 150px;
+    background-color:#FADE8B;
+    border-radius: 0% 100% 0% 0%;
+}
+.parca-sol-alt{
+    height: 150px;
+    width: 150px;
+    background-color:#F7F3D7;
+    border-radius: 0% 0% 0% 1000%;
+}
+.parca-sag-alt{
+    height: 150px;
+    width: 150px;
+    border-radius: 0% 0% 100% 0%;
+}
