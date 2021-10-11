@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-shadow: border-box;
+}
+body {
+  background-color: #f0f2f5;
+  color: #1c1e21;
+}
+.container {
+  width: 100vw;
+  height: 70vh;
+  position: relative;
+  margin: o auto;
+}
+.section1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  max-width: 1000px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.section2 {
+  flex: 0 0 40%;
+  text-align: center;
+  background-color: white;
+  border-radius: 12px;
+}
+.logo {
+  flex: 0 0 50%;
+  text-align: left;
+}
+.face {
+  font-size: 42px;
+  font-weight: 700;
+  color: #1877f2;
+}
+.logo h2 {
+  font: 26px;
+  font-weight: 400;
+  margin-right: 30px;
+  line-height: 32px;
+}
+.section2 form {
+  background-color: white;
+  border: none;
+  padding: 20px;
+  border-radius: 7px;
+  margin-bottom: 30px;
+  max-width: 400px;
+}
+.section2 .form input,
+.section2 .form .btn {
+  width: 300px;
+  margin: 5px 0;
+  height: 45px;
+  vertical-align: middle;
+  font-size: 16px;
+}
+.section2 .form input {
+  border: 1px solid #dddfe2;
+  color: #1d2129;
+  padding: 0 8px;
+  outline: none;
+  max-width: 340px;
+  border-radius: 8px;
+}
+.section2 .form input:focus {
+  border-color: #1877f2;
+  box-shadow: 0 0 0 2px #e7f3ff;
+}
+.section2 .form .psw {
+  background-color: #1877f2;
+  border: none;
+  border-radius: 6px;
+  font-size: 20px;
+  padding: 0 16px;
+  color: #ffffff;
+  font-weight: 700;
+  padding: 7px 0;
+  margin: 0 40px;
+  max-width: 320px;
+}
+.section2 .form a {
+  display: block;
+  color: #1877f2;
+  font-size: 14px;
+  padding: 10px solid #dadde1;
+}
+.section2 .form a:hover {
+  text-decoration: underline;
+}
+.section2 .form .btn {
+  background-color: #42b72a;
+  border: none;
+  border-radius: 6px;
+  font-size: 17px;
+  line-height: 48px;
+  color: #ffffff;
+  font-weight: 700;
+  margin-top: 20px;
+  max-width: 200px;
+}
+.section2 p {
+  font-size: 14px;
+}
+.section2 p a {
+  text-decoration: none;
+  color: #1c1e21;
+  font-weight: 600;
+}
+.section2 p a:hover {
+  text-decoration: underline;
+}
+.link {
+  margin-bottom: -40px;
+}
+footer {
+  height: 30vh;
+  background-color: white;
+}
+.footer-conteiner {
+  position: relative;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+footer ol {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 10px 0;
+}
+footer ol:first-child {
+  border-bottom: 1px solid #dddfe2;
+}
+footer ol:first-child li:last-child button {
+  background-color: #f5f6f7;
+  border: 1px solid #ccd0d5;
+  outline: none;
+  color: #4b4f56;
+  padding: 0 8px;
+  font-weight: 700;
+  font-size: 16px;
+}
+footer ol li {
+  padding-right: 15px;
+  font-size: 12px;
+  color: #385898;
+}
+footer ol li a {
+  text-decoration: none;
+  color: #385898;
+}
+footer ol li a:hover {
+  text-decoration: underline;
+}
+footer small {
+  font-size: 11px;
+}
