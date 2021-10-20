@@ -1,0 +1,268 @@
+/*general settings*/
+/* Bu ödevi yaparken şu yöntemleri kullandım.
+1-önce slicing yöntemi ile nerede ne var onları tesbit ettim
+2-sonra html i yazıp, css de border:1px solid red ile hepsini şablon olarak yaptım.
+3- Sablon bitince borderları kaldırıp iç çalışmlara başladım.
+ */
+
+ header {
+    display: flex;
+    width: 100vw;
+    height: 30vh;
+  }
+  #header-sol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6f8fc;
+    width: 30vw;
+    height: 20vh;
+    margin: 20px 10px;
+  }
+  #ilk {
+    width: 22vw;
+    height: 3vh;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    background-color: #66a8f2;
+  }
+  #iki {
+    width: 22vw;
+    height: 2vh;
+    margin-bottom: 12px;
+    background-color: #66a8f2;
+  }
+  #uc {
+    width: 5vw;
+    height: 4vh;
+    background-color: #66a8f2;
+  }
+  #header-orta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: 20vh;
+    margin: 20px 10px;
+    background-color: #f6f8fc;
+  }
+  #cursor {
+    width: 2vw;
+    height: 4vh;
+    border-radius: 100%;
+    background-color: #66a8f2;
+  }
+  i {
+    margin-left: 9px;
+    margin-top: -3px;
+    font-size: 30px;
+    color: #f6f8fc;
+  }
+  #header-sag {
+    width: 15vw;
+    height: 34vh;
+    margin: 20px 10px;
+    background-color: #66a8f2;
+  }
+  .cizgi {
+    width: 15vw;
+    height: 3vh;
+    border-radius: 3px;
+    margin-bottom: 11px;
+    background-color: #f6f8fc;
+  }
+  
+  #container {
+    display: flex;
+    width: 100vw;
+    height: 55vh;
+  }
+  #mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 15vw;
+    height: 55vh;
+    margin: 0 10px;
+    border-radius: 22px;
+    background-color: #f6f8fc;
+  }
+  #mobile-üst {
+    width: 7vw;
+    height: 2px;
+    background-color: #66a8f2;
+  }
+  #mobile-govde {
+    width: 12vw;
+    height: 40vh;
+    margin: 10px;
+    background-color: #66a8f2;
+  }
+  #mobile-alt {
+    width: 1.5vw;
+    height: 3vh;
+    background-color: ;
+    border-radius: 50%;
+    border: 1px solid #66a8f2;
+  }
+  
+  #center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 65vw;
+    height: 55vh;
+    margin: 0 10px;
+    background-color: #f6f8fc;
+  }
+  .ana {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30vw;
+    height: 43vh;
+    background-color: #f6f8fc;
+  }
+  #nokta {
+    width: 2.5vw;
+    height: 5vh;
+    border-radius: 50%;
+    background-color: #66a8f2;
+    margin-left: 110px;
+    margin-bottom: -20px;
+  }
+  #ucgen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -80px;
+  }
+  #ucgenbir {
+    width: 6vw;
+    height: 8vh;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background-color: #66a8f2;
+  }
+  #ucgeniki {
+    width: 10vw;
+    height: 14vh;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    margin-bottom: 35px;
+    margin-left: -35px;
+    background-color: #66a8f2;
+  }
+  #noktalar {
+    font-size: 50px;
+    color: #66a8f2;
+  }
+  
+  #ac-kapa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 13vw;
+    height: 7vh;
+    margin: 0 10px;
+  }
+  .bir {
+    width: 2vw;
+    height: 3.6vh;
+    border-radius: 100%;
+    background-color: #f6f8fc;
+    border: 1px solid #66a8f2;
+  }
+  .iki {
+    width: 3.8vw;
+    height: 4vh;
+    border-radius: 10px ;
+    background-color: #f6f8fc;
+    border: 1px solid #;
+  }
+  .uc {
+    width: 3.3vw;
+    height: 3.5vh;
+    border-radius: 10px ;
+    margin-left: 25px;
+    background-color: #f6f8fc;
+    border: 1px solid #f6f8fc;
+  }
+  .dort {
+    width: 2vw;
+    height: 3.5vh;
+    border-radius: 100%;
+    margin-left: 18px;
+    margin-top: -1px;
+    background-color: #66a8f2;
+    border: 1px solid #f6f8fc;
+  }
+  
+  #aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    height: 43vh;
+    margin: 0 10px;
+    margin-top: 30px;
+    background-color: #f6f8fc;
+  }
+  
+  footer {
+    display: flex;
+    width: 100vw;
+    height: 15vh;
+  }
+  .bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 67vw;
+    height: 7vh;
+    margin: 10px 10px;
+    border-radius: 1px;
+    background-color: #f6f8fc;
+  }
+  .uzun {
+    width: 40vw;
+    height: 6.6vh;
+    border-radius: 2px;
+    margin: 1px 0 1px 1px;
+    margin-left: -84px;
+    background-color: #66a8f2;
+  }
+  .kisa {
+    width: 20vw;
+    height: 5vh;
+    background-color: #f6f8fc;
+  }
+  .nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 30vw;
+    height: 7vh;
+    margin: 10px 10px;
+  }
+  nav {
+    display: flex;
+  }
+  .foot {
+    width: 4vw;
+    height: 6vh;
+    border: 1px solid #f6f8fc;
+    margin-right: 30px;
+    background-color: #f6f8fc;
+    border-radius: 2px;
+  }
+  .foot i {
+    color: #66a8f2;
+    margin-top: 2px;
+  }
+  .foot:nth-last-child(1) {
+    margin-right: 0;
+  }
+  
